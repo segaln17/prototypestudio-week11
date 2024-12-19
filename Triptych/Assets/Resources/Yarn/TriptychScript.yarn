@@ -1,0 +1,113 @@
+﻿title: Start
+tags:
+---
+<<wait  7.5>>
+<<jump RizzoIntro>>
+===
+title: RizzoIntro
+---
+A Stranger: Excuse me, are you waiting for the bus?
+A Stranger: Okay, so am I.
+A Stranger: I don't usually take this bus so I was worried I was in the wrong place.
+A Stranger: I'm trying to get to the big city! I have an audition.
+A Stranger: But it's nice to see other people are also waiting for the bus.
+<<wait  3>>
+A Stranger: Hey, did you see that billboard?
+A Stranger: That's me up there. I'm <i>Rizzo</i>.
+Rizzo: You've probably heard of me. I'm a little bit famous. Though maybe not as much as my friends who are also on the billboard.
+Rizzo: But I'm still on it! There's proof!
+Rizzo: Anyway.
+<<jump Moon>>
+===
+title: Moon
+---
+Rizzo: Did you see the moon?
+<<playDebussy TimelineController>>
+Rizzo: Talk about famous, she's gorgeous tonight!
+Rizzo: I think the moon is so funny because she's not out during the day, you know?
+Rizzo: Where does the moon go when it's not out?
+Rizzo: Do you think the moon sleeps?
+Rizzo: Or knows how to swim?
+Rizzo: I don't know how to swim. Fun fact about me.
+Rizzo: My friend Gonzo kept trying to teach me but he's a terrible teacher.
+Rizzo: Not all of us have a knack for buoyancy.
+<<wait  3>>
+<<jump Suit>>
+===
+title: Suit
+---
+Rizzo: What do you think of my suit?
+Rizzo: I got it on this website. 
+Rizzo: I was browsing the website the other day, a different day than the one I bought this suit,
+Rizzo: and I saw that they were selling tweezers for getting rid of blackheads for $1.46.
+Rizzo: I wouldn't need them because I'm a rat but that's a pretty good deal, I think.
+Rizzo: I got my suit for $40.27. Which seems pretty good, for a suit.
+Rizzo: I don't feel like a billionaire like the website said but I think it's okay.
+Rizzo: Do you think it looks okay?
+<<wait  3>>
+Rizzo: Do you think if I act like I look like a billionaire but I know that my suit cost less than fifty bucks, that that's okay?
+Rizzo: Do you think the casting people will know?
+Rizzo: Maybe I should've just worn my old jacket.
+Rizzo: I feel like this is stupid.
+Rizzo: I feel like I'm not going to get this gig and it'll be because of false advertising.
+Rizzo: Do you think I could sue?
+Rizzo: For false advertising?
+Rizzo: My friend Camilla is a lawyer...
+<<wait  4>>
+Rizzo: No, you're right.
+Rizzo: I look great.
+Rizzo: I'm going to get this part.
+Rizzo: Just because it was cheap doesn't mean it looks cheap.
+Rizzo: I'm the coolest rat in town.
+<<wait  2>>
+Rizzo: Yeah. Yeah, this is gonna be fine.
+<<wait 1>>
+<<jump Watch>>
+===
+title: Watch
+---
+Rizzo: We've been waiting a while, huh?
+Rizzo: Do you also have plans that rely on the bus?
+<<wait  2>>
+Rizzo: Oh, your friend's wedding!
+Rizzo: That's fun, I love weddings!
+<<wait  1>>
+Rizzo: Oh. That sounds complicated.
+Rizzo: I hope it works out, though.
+<<wait  1.5>>
+Rizzo: Sometimes I think maybe this whole thing isn't really worth it.
+Rizzo: I mean, we've been waiting a really long time, right? You keep winding your watch, do you know what time it is?
+Rizzo: It's a cool watch, by the way.
+Rizzo: I wish I had a watch.
+Rizzo: My friend Animal--well, he's only kind of my friend. Animal smashed my watch into pieces last week.
+Rizzo: I don't know why. He just does things like that sometimes.
+<<wait  3>>
+<<jump MoonAgain>>
+===
+title: MoonAgain
+---
+Rizzo: The moon's full.
+Rizzo: It wasn't yesterday.
+Rizzo: Or maybe it was. I don't really look at the moon.
+Rizzo: But maybe I should.
+<<wait  1>>
+Rizzo: It's funny how the moon can get bigger and smaller and go away and come back.
+Rizzo: Maybe that's proof of something. That things can disappear and then come back again.
+Rizzo: Like time, or something.
+Rizzo: Maybe I shouldn't go to this audition. Maybe you shouldn't go to your friend's wedding.
+Rizzo: Maybe if we get on this bus something really bad will happen and we'll never make it and no one will ever hear about us again.
+Rizzo: But maybe it won't and we'll be fine.
+Rizzo: And maybe I get this job.
+Rizzo: And maybe you'll have fun at the wedding.
+Rizzo: But maybe this bus will never come.
+<<jump BusIsHere>>
+===
+title: BusIsHere
+---
+Rizzo: Oh, I can see the bus.
+<<timelineStart TimelineController>>
+<<wait  1>>
+//Rizzo: Wait, this isn't your bus?
+<<quitRestart TimelineController>>
+<<stop>>
+===
